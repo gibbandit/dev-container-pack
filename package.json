@@ -1,0 +1,17 @@
+{
+    "name": "dev-container-pack",
+    "displayName": "Dev Container Pack",
+    "description": "An extension pack with recommended extensions for dev containers.",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.64.0"
+    },
+    "categories": [
+        "Extension Packs"
+    ],
+    "extensionPack": [ 
+        "ms-vscode-remote.vscode-remote-extensionpack",
+        "ms-azuretools.vscode-docker",
+        "tyriar.windows-terminal"
+    ]
+}
